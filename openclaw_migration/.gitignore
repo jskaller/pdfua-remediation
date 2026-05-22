@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Node (openclaw installs via npm)
+node_modules/
+npm-debug.log*
+
+# Docker
+*.tar
+
+# Logs and temp outputs
+*.log
+workspace/output/*
+!workspace/output/.gitkeep
+workspace/input/*
+!workspace/input/.gitkeep
+
+# veraPDF and qpdf binaries (installed at Docker build time, not committed)
+workspace/tools/verapdf/
+workspace/tools/qpdf/
+*.jar
+
+# Job artifacts (generated at runtime)
+workspace/output/*/
+workspace/input/*.pdf
+
+# Fonts (large, licensed separately)
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Editor and OS artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
