@@ -1,0 +1,5 @@
+interface:
+  display_name: Montefiore PDF/UA Unified V6
+  short_description: Strict Montefiore PDF/UA remediation and validation workflow.
+  icon: file-text
+  brand_color: '#005A8B'

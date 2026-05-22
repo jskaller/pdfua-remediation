@@ -1,0 +1,1132 @@
+[F] README_ASSETS.md
+[D] manifests_reference
+[F] manifests_reference/montefiore_pdfua_unified_v4_catalog_2026-05-19.xlsx
+[F] manifests_reference/montefiore_pdfua_unified_v5_catalog_2026-05-19.csv
+[F] manifests_reference/montefiore_pdfua_unified_v5_catalog_2026-05-19.xlsx
+[D] templates
+[F] templates/CONTRAST_REMEDIATION_RECORD_TEMPLATE.json
+[F] templates/FONT_REPLACEMENT_RECORD_TEMPLATE.json
+[F] templates/METADATA_AUDIT_FIELDS.csv
+[F] templates/PACKAGE_CONTENTS_TEMPLATE.md
+[F] templates/STATUS_JSON_TEMPLATE.json
+[F] templates/VALIDATION_PROFILES_USED_TEMPLATE.json
+[D] validation_profiles
+[F] validation_profiles/README_VALIDATION_PROFILES.md
+[D] validation_profiles/veraPDF-validation-profiles-integration
+[D] validation_profiles/veraPDF-validation-profiles-integration/.github
+[D] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/slack-reminder-about-profile-update.yml
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/trigger-increment-workflow.yml
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/update-PDFA-profiles-workflow.yml
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/update-PDFUA-profiles-workflow.yml
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/update-library-PDFA-profiles-workflow.yml
+[F] validation_profiles/veraPDF-validation-profiles-integration/.github/workflows/update-library-PDFUA-profiles-workflow.yml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.3 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.3 Fonts/6.3.8 Unicode character maps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.3 Fonts/6.3.8 Unicode character maps/verapdf-profile-6-3-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.7 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.7 Metadata/6.7.11 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.2 Tagged PDF
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.2 Tagged PDF/6.8.2.2 Mark information dictionary
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.2 Tagged PDF/6.8.2.2 Mark information dictionary/verapdf-profile-6-8-2-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts/6.8.3.3 Structure hierarchy
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts/6.8.3.3 Structure hierarchy/verapdf-profile-6-8-3-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts/6.8.3.4 Structure types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts/6.8.3.4 Structure types/verapdf-profile-6-8-3-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.3 Artifacts/6.8.3.4 Structure types/verapdf-profile-6-8-3-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.4 Natural language specification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1a/6.8 Logical Structure/6.8.4 Natural language specification/verapdf-profile-6-8-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.10 Filters
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.10 Filters/verapdf-profile-6-1-10-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.10 Filters/verapdf-profile-6-1-10-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.11 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.11 Embedded files/verapdf-profile-6-1-11-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.11 Embedded files/verapdf-profile-6-1-11-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.12 Implementation limits/verapdf-profile-6-1-12-t10.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.13 Optional content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.13 Optional content/verapdf-profile-6-1-13-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.2 File header
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.3 File trailer
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.4 Cross reference table
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.4 Cross reference table/verapdf-profile-6-1-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.4 Cross reference table/verapdf-profile-6-1-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.4 Cross reference table/verapdf-profile-6-1-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.6 String objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.6 String objects/verapdf-profile-6-1-6-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.6 String objects/verapdf-profile-6-1-6-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.7 Stream objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.7 Stream objects/verapdf-profile-6-1-7-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.7 Stream objects/verapdf-profile-6-1-7-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.7 Stream objects/verapdf-profile-6-1-7-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.8 Indirect objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.1 File structure/6.1.8 Indirect objects/verapdf-profile-6-1-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.10 Content streams
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.10 Content streams/verapdf-profile-6-2-10-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.2 Output intent
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.2 Output intent/verapdf-profile-6-2-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.2 Output intent/verapdf-profile-6-2-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.2 ICCBased colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.2 ICCBased colour spaces/verapdf-profile-6-2-3-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.2 ICCBased colour spaces/verapdf-profile-6-2-3-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.3 Uncalibrated colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.3 Uncalibrated colour spaces/verapdf-profile-6-2-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.3 Uncalibrated colour spaces/verapdf-profile-6-2-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.3 Colour spaces/6.2.3.3 Uncalibrated colour spaces/verapdf-profile-6-2-3-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images/verapdf-profile-6-2-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images/verapdf-profile-6-2-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images/verapdf-profile-6-2-4-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images/verapdf-profile-6-2-4-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.4 Images/verapdf-profile-6-2-4-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.5 Form XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.5 Form XObjects/verapdf-profile-6-2-5-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.6 Reference XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.6 Reference XObjects/verapdf-profile-6-2-6-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.7 PostScript XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.7 PostScript XObjects/verapdf-profile-6-2-7-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.8 Extended graphics state
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.8 Extended graphics state/verapdf-profile-6-2-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.8 Extended graphics state/verapdf-profile-6-2-8-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.9 Rendering intents
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.2 Graphics/6.2.9 Rendering intents/verapdf-profile-6-2-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.2 Font types/verapdf-profile-6-3-2-t07.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.1 General/verapdf-profile-6-3-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.2 CIDFonts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.2 CIDFonts/verapdf-profile-6-3-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.3 CMaps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.3 CMaps/verapdf-profile-6-3-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.3 Composite fonts/6.3.3.3 CMaps/verapdf-profile-6-3-3-3-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.4 Embedded font programs
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.4 Embedded font programs/verapdf-profile-6-3-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.5 Font subsets
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.5 Font subsets/verapdf-profile-6-3-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.5 Font subsets/verapdf-profile-6-3-5-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.5 Font subsets/verapdf-profile-6-3-5-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.6 Font metrics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.6 Font metrics/verapdf-profile-6-3-6-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.7 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.7 Character encodings/verapdf-profile-6-3-7-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.7 Character encodings/verapdf-profile-6-3-7-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.3 Fonts/6.3.7 Character encodings/verapdf-profile-6-3-7-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.4 Transparency/verapdf-profile-6-4-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.2 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.2 Annotation types/verapdf-profile-6-5-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.5 Annotations/6.5.3 Annotation dictionaries/verapdf-profile-6-5-3-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.1 General/verapdf-profile-6-6-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.1 General/verapdf-profile-6-6-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.1 General/verapdf-profile-6-6-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.2 Trigger events
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.2 Trigger events/verapdf-profile-6-6-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.2 Trigger events/verapdf-profile-6-6-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.6 Actions/6.6.2 Trigger events/verapdf-profile-6-6-2-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.11 Version and conformance level identification/verapdf-profile-6-7-11-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.2 Properties
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.2 Properties/verapdf-profile-6-7-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.2 Properties/verapdf-profile-6-7-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.3 Document information dictionary/verapdf-profile-6-7-3-t08.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.5 XMP Header
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.5 XMP Header/verapdf-profile-6-7-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.5 XMP Header/verapdf-profile-6-7-5-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t12.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t13.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t14.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t15.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t16.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t17.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t18.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.8 Extension schemas/verapdf-profile-6-7-8-t19.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.9 Validation
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.9 Validation/verapdf-profile-6-7-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.9 Validation/verapdf-profile-6-7-9-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.7 Metadata/6.7.9 Validation/verapdf-profile-6-7-9-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.9 Interactive Forms
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.9 Interactive Forms/verapdf-profile-6-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/1b/6.9 Interactive Forms/verapdf-profile-6-9-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.2 Graphics/6.2.11 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.3 Level A conformance
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.3 Level A conformance/verapdf-profile-6-2-11-7-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.2 Tagged PDF
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.2 Tagged PDF/6.7.2.2 Mark information dictionary
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.2 Tagged PDF/6.7.2.2 Mark information dictionary/verapdf-profile-6-7-2-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.3 Structure hierarchy
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.3 Structure hierarchy/verapdf-profile-6-7-3-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.4 Structure types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.4 Structure types/verapdf-profile-6-7-3-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.4 Structure types/verapdf-profile-6-7-3-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.3 Artefacts/6.7.3.4 Structure types/verapdf-profile-6-7-3-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.4 Natural language specification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2a/6.7 Logical Structure/6.7.4 Natural language specification/verapdf-profile-6-7-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.10 Inline image dictionaries
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.10 Inline image dictionaries/verapdf-profile-6-1-10-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.12 Permissions
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.12 Permissions/verapdf-profile-6-1-12-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.12 Permissions/verapdf-profile-6-1-12-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.13 Implementation limits/verapdf-profile-6-1-13-t11.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.2 File header
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.3 File trailer
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.4 Cross reference table
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.4 Cross reference table/verapdf-profile-6-1-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.6 String objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.6 String objects/verapdf-profile-6-1-6-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.6 String objects/verapdf-profile-6-1-6-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.1 General/verapdf-profile-6-1-7-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.1 General/verapdf-profile-6-1-7-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.1 General/verapdf-profile-6-1-7-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.2 Filters
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.7 Stream objects/6.1.7.2 Filters/verapdf-profile-6-1-7-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.8 Name objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.8 Name objects/verapdf-profile-6-1-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.9 Indirect objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.1 File structure/6.1.9 Indirect objects/verapdf-profile-6-1-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.10 Use of alternate presentations and transitions
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.10 Use of alternate presentations and transitions/verapdf-profile-6-10-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.10 Use of alternate presentations and transitions/verapdf-profile-6-10-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.11 Document requirements
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.11 Document requirements/verapdf-profile-6-11-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.10 Transparency
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.10 Transparency/verapdf-profile-6-2-10-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.10 Transparency/verapdf-profile-6-2-10-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.2 Font types/verapdf-profile-6-2-11-2-t07.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.1 General/verapdf-profile-6-2-11-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.2 CIDFonts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.2 CIDFonts/verapdf-profile-6-2-11-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.3 CMaps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.3 CMaps/verapdf-profile-6-2-11-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.3 CMaps/verapdf-profile-6-2-11-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.3 CMaps/verapdf-profile-6-2-11-3-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.1 General/verapdf-profile-6-2-11-4-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.1 General/verapdf-profile-6-2-11-4-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.2 Subset embedding
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.2 Subset embedding/verapdf-profile-6-2-11-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.4 Embedding/6.2.11.4.2 Subset embedding/verapdf-profile-6-2-11-4-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.5 Font metrics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.5 Font metrics/verapdf-profile-6-2-11-5-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings/verapdf-profile-6-2-11-6-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings/verapdf-profile-6-2-11-6-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings/verapdf-profile-6-2-11-6-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings/verapdf-profile-6-2-11-6-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.8 Use of .notdef glyph
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.11 Fonts/6.2.11.8 Use of .notdef glyph/verapdf-profile-6-2-11-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.2 Content streams
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.2 Content streams/verapdf-profile-6-2-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.2 Content streams/verapdf-profile-6-2-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.3 Output intent
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces/verapdf-profile-6-2-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces/verapdf-profile-6-2-4-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces/verapdf-profile-6-2-4-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces/verapdf-profile-6-2-4-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.6 Rendering intents
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.6 Rendering intents/verapdf-profile-6-2-6-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/verapdf-profile-6-2-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/verapdf-profile-6-2-8-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/verapdf-profile-6-2-8-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/verapdf-profile-6-2-8-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/verapdf-profile-6-2-8-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000/verapdf-profile-6-2-8-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000/verapdf-profile-6-2-8-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000/verapdf-profile-6-2-8-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000/verapdf-profile-6-2-8-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.8 Images/6.2.8.3 JPEG2000/verapdf-profile-6-2-8-3-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.1 Form XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.1 Form XObjects/verapdf-profile-6-2-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.2 Reference XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.2 Reference XObjects/verapdf-profile-6-2-9-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.3 PostScript XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.2 Graphics/6.2.9 XObjects/6.2.9.3 PostScript XObjects/verapdf-profile-6-2-9-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.1 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.1 Annotation types/verapdf-profile-6-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.2 Annotation dictionaries
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.2 Annotation dictionaries/verapdf-profile-6-3-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.2 Annotation dictionaries/verapdf-profile-6-3-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.3 Annotation appearances
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.1 General/verapdf-profile-6-4-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.1 General/verapdf-profile-6-4-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.1 General/verapdf-profile-6-4-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.2 XFA forms
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.2 XFA forms/verapdf-profile-6-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.2 XFA forms/verapdf-profile-6-4-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.3 Digital signatures
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.3 Digital signatures/verapdf-profile-6-4-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.3 Digital signatures/verapdf-profile-6-4-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.4 Interactive Forms/6.4.3 Digital signatures/verapdf-profile-6-4-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.1 General/verapdf-profile-6-5-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.1 General/verapdf-profile-6-5-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.2 Trigger events
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.2 Trigger events/verapdf-profile-6-5-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.5 Action/6.5.2 Trigger events/verapdf-profile-6-5-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/verapdf-profile-6-6-2-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/verapdf-profile-6-6-2-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/verapdf-profile-6-6-2-1-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/verapdf-profile-6-6-2-1-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/verapdf-profile-6-6-2-1-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/verapdf-profile-6-6-2-3-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/verapdf-profile-6-6-2-3-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.2 Extension schemas
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.2 Extension schemas/verapdf-profile-6-6-2-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t12.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t13.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t14.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t15.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t16.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t17.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/verapdf-profile-6-6-2-3-3-t18.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t07.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.8 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.8 Embedded files/verapdf-profile-6-8-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.8 Embedded files/verapdf-profile-6-8-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.9 Optional content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.9 Optional content/verapdf-profile-6-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.9 Optional content/verapdf-profile-6-9-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.9 Optional content/verapdf-profile-6-9-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2b/6.9 Optional content/verapdf-profile-6-9-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics/6.2.11 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/verapdf-profile-6-2-11-7-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/verapdf-profile-6-2-11-7-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/2u/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3a
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3a/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3a/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3a/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.2 Graphics/6.2.11 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.2 Graphics/6.2.11 Fonts/6.2.11.6 Character encodings/verapdf-profile-6-2-11-6-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.8 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.8 Embedded files/verapdf-profile-6-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.8 Embedded files/verapdf-profile-6-8-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3b/6.8 Embedded files/verapdf-profile-6-8-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3u
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3u/6.6 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3u/6.6 Metadata/6.6.4 Version and conformance level identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/3u/6.6 Metadata/6.6.4 Version and conformance level identification/verapdf-profile-6-6-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.11 Permissions
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.11 Permissions/verapdf-profile-6-1-11-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.12 Document catalog dictionary
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.12 Document catalog dictionary/verapdf-profile-6-1-12-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.2 File header
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.2 File header/verapdf-profile-6-1-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.3 File trailer/verapdf-profile-6-1-3-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.4 Cross reference table
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.4 Cross reference table/verapdf-profile-6-1-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.5 String objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.5 String objects/verapdf-profile-6-1-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.5 String objects/verapdf-profile-6-1-5-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects/6.1.6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects/6.1.6.1 General/verapdf-profile-6-1-6-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects/6.1.6.1 General/verapdf-profile-6-1-6-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects/6.1.6.2 Filters
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.6 Stream objects/6.1.6.2 Filters/verapdf-profile-6-1-6-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.7 Name objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.7 Name objects/verapdf-profile-6-1-7-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.8 Indirect objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.8 Indirect objects/verapdf-profile-6-1-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.9 Inline image dictionaries
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.1 File structure/6.1.9 Inline image dictionaries/verapdf-profile-6-1-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.10 Optional content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.10 Optional content/verapdf-profile-6-10-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.10 Optional content/verapdf-profile-6-10-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.10 Optional content/verapdf-profile-6-10-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.11 Use of alternate presentations and transitions
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.11 Use of alternate presentations and transitions/verapdf-profile-6-11-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.11 Use of alternate presentations and transitions/verapdf-profile-6-11-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.12 Document requirements
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.12 Document requirements/verapdf-profile-6-12-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.2 Font types/verapdf-profile-6-2-10-2-t07.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.1 General/verapdf-profile-6-2-10-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.2 CIDFonts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.2 CIDFonts/verapdf-profile-6-2-10-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.3 CMaps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.3 CMaps/verapdf-profile-6-2-10-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.3 CMaps/verapdf-profile-6-2-10-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.3 Composite fonts/6.2.10.3.3 CMaps/verapdf-profile-6-2-10-3-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.4 Embedding
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.4 Embedding/6.2.10.4.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.4 Embedding/6.2.10.4.1 General/verapdf-profile-6-2-10-4-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.4 Embedding/6.2.10.4.1 General/verapdf-profile-6-2-10-4-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.5 Font metrics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.5 Font metrics/verapdf-profile-6-2-10-5-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.6 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.6 Character encodings/verapdf-profile-6-2-10-6-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.6 Character encodings/verapdf-profile-6-2-10-6-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.6 Character encodings/verapdf-profile-6-2-10-6-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.6 Character encodings/verapdf-profile-6-2-10-6-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.7 Unicode character maps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.7 Unicode character maps/verapdf-profile-6-2-10-7-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.8 Use of ActualText
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.8 Use of ActualText/verapdf-profile-6-2-10-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.9 Use of .notdef glyph
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.10 Fonts/6.2.10.9 Use of .notdef glyph/verapdf-profile-6-2-10-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.2 Content streams
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.2 Content streams/verapdf-profile-6-2-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.2 Content streams/verapdf-profile-6-2-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.2 Content streams/verapdf-profile-6-2-2-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.3 Output intent
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.3 Output intent/verapdf-profile-6-2-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces/verapdf-profile-6-2-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces/verapdf-profile-6-2-4-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.2 ICCBased colour spaces/verapdf-profile-6-2-4-2-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated Device colour spaces/verapdf-profile-6-2-4-3-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces/verapdf-profile-6-2-4-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.4 Separation and DeviceN colour spaces/verapdf-profile-6-2-4-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.5 Extended graphics state/verapdf-profile-6-2-5-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/verapdf-profile-6-2-7-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/verapdf-profile-6-2-7-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/verapdf-profile-6-2-7-1-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/verapdf-profile-6-2-7-1-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/verapdf-profile-6-2-7-1-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000/verapdf-profile-6-2-7-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000/verapdf-profile-6-2-7-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000/verapdf-profile-6-2-7-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000/verapdf-profile-6-2-7-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.7 Images/6.2.7.3 JPEG2000/verapdf-profile-6-2-7-3-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.8 XObjects
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.8 XObjects/6.2.8.1 Form XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.8 XObjects/6.2.8.1 Form XObjects/verapdf-profile-6-2-8-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.8 XObjects/6.2.8.2 Reference XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.8 XObjects/6.2.8.2 Reference XObjects/verapdf-profile-6-2-8-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.9 Transparency
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.9 Transparency/verapdf-profile-6-2-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.2 Graphics/6.2.9 Transparency/verapdf-profile-6-2-9-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.1 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.1 Annotation types/verapdf-profile-6-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.2 Annotation dictionaries
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.2 Annotation dictionaries/verapdf-profile-6-3-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.2 Annotation dictionaries/verapdf-profile-6-3-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.3 Annotation appearances
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.3 Annotations/6.3.3 Annotation appearances/verapdf-profile-6-3-3-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.1 General/verapdf-profile-6-4-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.1 General/verapdf-profile-6-4-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.2 XFA forms
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.2 XFA forms/verapdf-profile-6-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.4 Interactive forms/6.4.2 XFA forms/verapdf-profile-6-4-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action/6.6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action/6.6.1 General/verapdf-profile-6-6-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action/6.6.1 General/verapdf-profile-6-6-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action/6.6.3 Trigger events
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.6 Action/6.6.3 Trigger events/verapdf-profile-6-6-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/verapdf-profile-6-7-2-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/verapdf-profile-6-7-2-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/verapdf-profile-6-7-2-1-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/verapdf-profile-6-7-2-1-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/verapdf-profile-6-7-2-1-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.7 Metadata/6.7.3 Version identification/verapdf-profile-6-7-3-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.9 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.9 Embedded files/verapdf-profile-6-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.9 Embedded files/verapdf-profile-6-9-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.9 Embedded files/verapdf-profile-6-9-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4/6.9 Embedded files/verapdf-profile-6-9-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.1 File structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.1 File structure/6.1.6 Stream objects
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.1 File structure/6.1.6 Stream objects/6.1.6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.1 File structure/6.1.6 Stream objects/6.1.6.1 General/verapdf-profile-6-1-6-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.3 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.3 Annotations/6.3.1 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.3 Annotations/6.3.1 Annotation types/verapdf-profile-6-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.6 Action
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.6 Action/6.6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.6 Action/6.6.1 General/verapdf-profile-6-6-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.7.3 Version identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4e/6.7.3 Version identification/verapdf-profile-6-7-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.3 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.3 Annotations/6.3.1 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.3 Annotations/6.3.1 Annotation types/verapdf-profile-6-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.7.3 Version identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.7.3 Version identification/verapdf-profile-6-7-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.9 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/4f/6.9 Embedded files/verapdf-profile-6-9-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-1A.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-1B.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-2A.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-2B.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-2U.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-3A.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-3B.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-3U.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-4.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-4E.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-4F.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification/verapdf-profile-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification/verapdf-profile-5-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification/verapdf-profile-5-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification/verapdf-profile-5-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/5 Version identification/verapdf-profile-5-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/6 Conformance requirements
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/6 Conformance requirements/6.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/6 Conformance requirements/6.1 General/verapdf-profile-6-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/6 Conformance requirements/6.2 Conforming files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/6 Conformance requirements/6.2 Conforming files/verapdf-profile-6-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.1 General/verapdf-profile-7-1-t12.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.10 Optional content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.10 Optional content/verapdf-profile-7-10-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.10 Optional content/verapdf-profile-7-10-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.11 Embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.11 Embedded files/verapdf-profile-7-11-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.15 XFA
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.15 XFA/verapdf-profile-7-15-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.16 Security
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.16 Security/verapdf-profile-7-16-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.1 General/verapdf-profile-7-18-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.1 General/verapdf-profile-7-18-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.1 General/verapdf-profile-7-18-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.2 Annotation types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.2 Annotation types/verapdf-profile-7-18-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.3 Tab order
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.3 Tab order/verapdf-profile-7-18-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.4 Forms
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.4 Forms/verapdf-profile-7-18-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.4 Forms/verapdf-profile-7-18-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.5 Links
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.5 Links/verapdf-profile-7-18-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.5 Links/verapdf-profile-7-18-5-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.6 Media
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.6 Media/7.18.6.2 Media clip data
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.6 Media/7.18.6.2 Media clip data/verapdf-profile-7-18-6-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.6 Media/7.18.6.2 Media clip data/verapdf-profile-7-18-6-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.8 PrinterMark
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.18 Annotations/7.18.8 PrinterMark/verapdf-profile-7-18-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t12.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t13.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t14.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t15.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t16.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t17.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t18.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t19.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t20.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t21.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t22.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t23.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t24.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t25.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t26.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t27.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t28.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t29.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t30.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t31.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t32.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t33.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t34.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t36.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t37.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t38.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t39.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t40.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t41.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t42.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.2 Text/verapdf-profile-7-2-t43.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.20 XObjects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.20 XObjects/verapdf-profile-7-20-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.20 XObjects/verapdf-profile-7-20-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.1 General/verapdf-profile-7-21-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.2 CIDFonts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.2 CIDFonts/verapdf-profile-7-21-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.3 CMaps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.3 CMaps/verapdf-profile-7-21-3-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.3 CMaps/verapdf-profile-7-21-3-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.3 Composite fonts/7.21.3.3 CMaps/verapdf-profile-7-21-3-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.1 General/verapdf-profile-7-21-4-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.1 General/verapdf-profile-7-21-4-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.2 Subset embedding
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.2 Subset embedding/verapdf-profile-7-21-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.4 Embedding/7.21.4.2 Subset embedding/verapdf-profile-7-21-4-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.5 Font metrics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.5 Font metrics/verapdf-profile-7-21-5-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.6 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.6 Character encodings/verapdf-profile-7-21-6-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.6 Character encodings/verapdf-profile-7-21-6-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.6 Character encodings/verapdf-profile-7-21-6-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.6 Character encodings/verapdf-profile-7-21-6-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.7 Unicode character maps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.7 Unicode character maps/verapdf-profile-7-21-7-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.7 Unicode character maps/verapdf-profile-7-21-7-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.8 Use of .notdef glyph
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.21 Fonts/7.21.8 Use of .notdef glyph/verapdf-profile-7-21-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.3 Graphics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.3 Graphics/verapdf-profile-7-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.2 Numbered headings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.2 Numbered headings/verapdf-profile-7-4-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.4 Unnumbered headings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.4 Unnumbered headings/verapdf-profile-7-4-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.4 Unnumbered headings/verapdf-profile-7-4-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.4 Headings/7.4.4 Unnumbered headings/verapdf-profile-7-4-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.5 Tables
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.5 Tables/verapdf-profile-7-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.5 Tables/verapdf-profile-7-5-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.7 Mathematical expressions
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.7 Mathematical expressions/verapdf-profile-7-7-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.9 Notes and references
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.9 Notes and references/verapdf-profile-7-9-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/1/7.9 Notes and references/verapdf-profile-7-9-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification/verapdf-profile-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification/verapdf-profile-5-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification/verapdf-profile-5-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification/verapdf-profile-5-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/5 Version identification/verapdf-profile-5-t05.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/6 Conformance requirements
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/6 Conformance requirements/6.2 Conforming files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/6 Conformance requirements/6.2 Conforming files/verapdf-profile-6-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.1 General/verapdf-profile-8-10-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.1 General/verapdf-profile-8-10-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.1 General/verapdf-profile-8-10-1-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.2 Context
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.2 Context/8.10.2.3 Contents entry
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.2 Context/8.10.2.3 Contents entry/verapdf-profile-8-10-2-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.2 Context/8.10.2.3 Contents entry/verapdf-profile-8-10-2-3-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.3 Fields
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.3 Fields/8.10.3.3 Text fields
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.3 Fields/8.10.3.3 Text fields/verapdf-profile-8-10-3-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.3 Fields/8.10.3.5 Signature fields
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.10 Forms/8.10.3 Fields/8.10.3.5 Signature fields/verapdf-profile-8-10-3-5-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata/8.11.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata/8.11.1 General/verapdf-profile-8-11-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata/8.11.1 General/verapdf-profile-8-11-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata/8.11.2 Interactive aspects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.11 Metadata/8.11.2 Interactive aspects/verapdf-profile-8-11-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.14 Use of embedded files
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.14 Use of embedded files/8.14.1 Descriptions for embedded files
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.14 Use of embedded files/8.14.1 Descriptions for embedded files/verapdf-profile-8-14-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.1 General/verapdf-profile-8-2-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.1 General/verapdf-profile-8-2-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.2 Real content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.2 Real content/verapdf-profile-8-2-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.4 Structure types
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.4 Structure types/verapdf-profile-8-2-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.4 Structure types/verapdf-profile-8-2-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.4 Structure types/verapdf-profile-8-2-4-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.4 Structure types/verapdf-profile-8-2-4-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.12 Heading (Hn) and (H)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.12 Heading (Hn) and (H)/verapdf-profile-8-2-5-12-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.14 Footnotes and Endnotes (FENote)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.14 Footnotes and Endnotes (FENote)/verapdf-profile-8-2-5-14-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.14 Footnotes and Endnotes (FENote)/verapdf-profile-8-2-5-14-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.14 Footnotes and Endnotes (FENote)/verapdf-profile-8-2-5-14-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.14 Footnotes and Endnotes (FENote)/verapdf-profile-8-2-5-14-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.2 Document and DocumentFragment
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.2 Document and DocumentFragment/verapdf-profile-8-2-5-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.2 Document and DocumentFragment/verapdf-profile-8-2-5-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.20 Link and Reference
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.20 Link and Reference/verapdf-profile-8-2-5-20-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.20 Link and Reference/verapdf-profile-8-2-5-20-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.23 Ruby (Ruby, RB, RT, RP)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.23 Ruby (Ruby, RB, RT, RP)/verapdf-profile-8-2-5-23-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.24 Warichu (WT, WP)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.24 Warichu (WT, WP)/verapdf-profile-8-2-5-24-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.25 List (L, LI, LBody)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.25 List (L, LI, LBody)/verapdf-profile-8-2-5-25-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.25 List (L, LI, LBody)/verapdf-profile-8-2-5-25-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/verapdf-profile-8-2-5-26-t06.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.27 Caption
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.27 Caption/verapdf-profile-8-2-5-27-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.28 Figure
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.28 Figure/8.2.5.28.2 Figure properties
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.28 Figure/8.2.5.28.2 Figure properties/verapdf-profile-8-2-5-28-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.29 Formula
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.29 Formula/verapdf-profile-8-2-5-29-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.8 Table of Contents (TOC and TOCI)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.8 Table of Contents (TOC and TOCI)/verapdf-profile-8-2-5-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.3 Replacements and alternatives for text
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.3 Replacements and alternatives for text/verapdf-profile-8-4-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.3 Replacements and alternatives for text/verapdf-profile-8-4-3-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.3 Replacements and alternatives for text/verapdf-profile-8-4-3-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.4 Declaring natural language
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.4 Declaring natural language/verapdf-profile-8-4-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.4 Declaring natural language/verapdf-profile-8-4-4-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.1 General/verapdf-profile-8-4-5-3-1-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.2 CIDFonts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.2 CIDFonts/verapdf-profile-8-4-5-3-2-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.4 CMaps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.4 CMaps/verapdf-profile-8-4-5-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.4 CMaps/verapdf-profile-8-4-5-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.4 CMaps/verapdf-profile-8-4-5-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.5 Embedding
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.5 Embedding/8.4.5.5.1 General
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.5 Embedding/8.4.5.5.1 General/verapdf-profile-8-4-5-5-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.5 Embedding/8.4.5.5.1 General/verapdf-profile-8-4-5-5-1-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.6 Font metrics
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.6 Font metrics/verapdf-profile-8-4-5-6-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.7 Character encodings
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.7 Character encodings/verapdf-profile-8-4-5-7-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.7 Character encodings/verapdf-profile-8-4-5-7-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.7 Character encodings/verapdf-profile-8-4-5-7-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.7 Character encodings/verapdf-profile-8-4-5-7-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.8 Unicode character maps
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.8 Unicode character maps/verapdf-profile-8-4-5-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.8 Unicode character maps/verapdf-profile-8-4-5-8-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.9 Use of .notdef glyph
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.9 Use of .notdef glyph/verapdf-profile-8-4-5-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.6 Text string objects
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.6 Text string objects/verapdf-profile-8-6-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.7 Optional content
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.7 Optional content/verapdf-profile-8-7-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.7 Optional content/verapdf-profile-8-7-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.8 Intra-document destinations
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.8 Intra-document destinations/verapdf-profile-8-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.8 Intra-document destinations/verapdf-profile-8-8-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.2 Annotations as artifacts
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.2 Annotations as artifacts/verapdf-profile-8-9-2-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.2 Annotations as artifacts/verapdf-profile-8-9-2-2-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.3 Markup annotations
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.3 Markup annotations/verapdf-profile-8-9-2-3-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.3 Markup annotations/verapdf-profile-8-9-2-3-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.10 File attachment
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.10 File attachment/verapdf-profile-8-9-2-4-10-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.11 Sound,movie
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.11 Sound,movie/verapdf-profile-8-9-2-4-11-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.11 Sound,movie/verapdf-profile-8-9-2-4-11-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.12 Screen
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.12 Screen/verapdf-profile-8-9-2-4-12-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.13 Widget
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.13 Widget/verapdf-profile-8-9-2-4-13-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.14 Printer's mark
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.14 Printer's mark/verapdf-profile-8-9-2-4-14-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.15 Trap network
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.15 Trap network/verapdf-profile-8-9-2-4-15-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.16 Watermark
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.16 Watermark/verapdf-profile-8-9-2-4-16-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.19 3D and RichMedia
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.19 3D and RichMedia/verapdf-profile-8-9-2-4-19-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.19 3D and RichMedia/verapdf-profile-8-9-2-4-19-t02.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.7 Rubber stamp
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.7 Rubber stamp/verapdf-profile-8-9-2-4-7-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.8 Ink
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.8 Ink/verapdf-profile-8-9-2-4-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.9 Popup
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.2 Semantics and content/8.9.2.4 Annotation types/8.9.2.4.9 Popup/verapdf-profile-8-9-2-4-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.3 Order
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.3 Order/8.9.3.3 Tab order
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.3 Order/8.9.3.3 Tab order/verapdf-profile-8-9-3-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.4 Alternative descriptions
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.4 Alternative descriptions/8.9.4.2 Alt properties
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/2/8.9 Annotations/8.9.4 Alternative descriptions/8.9.4.2 Alt properties/verapdf-profile-8-9-4-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/ISO-32000-1-Tagged.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/ISO-32000-2-Tagged.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/ISO-32005-Tagged.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/PDFUA-1.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/PDFUA-2-ISO32005.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/PDFUA-2.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.1 Info and Relationships
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.1 Info and Relationships/verapdf-profile-1-3-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.1 Info and Relationships/verapdf-profile-1-3-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.1 Info and Relationships/verapdf-profile-1-3-1-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.1 Info and Relationships/verapdf-profile-1-3-1-t04.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.4 Orientation
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.3 Adaptable/1.3.4 Orientation/verapdf-profile-1-3-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.10 Reflow
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.10 Reflow/verapdf-profile-1-4-10-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.3 Contrast (Minimum)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.3 Contrast (Minimum)/verapdf-profile-1-4-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.4 Resize Text
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.4 Resize Text/verapdf-profile-1-4-4-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.8 Visual Presentation
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/1 Perceivable/1.4 Distinguishable/1.4.8 Visual Presentation/verapdf-profile-1-4-8-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/2 Operable
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/2 Operable/2.4 Navigable
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/2 Operable/2.4 Navigable/2.4.9 Link Purpose (Link Only)
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/2 Operable/2.4 Navigable/2.4.9 Link Purpose (Link Only)/verapdf-profile-2-4-9-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t12.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t13.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t14.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t15.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t16.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t17.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t18.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t19.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t20.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t21.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t22.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t23.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t25.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t26.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t27.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t28.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t29.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t31.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t32.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t34.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t35.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t36.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t37.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t38.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t39.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t40.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t41.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t42.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t43.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t44.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t45.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t46.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t47.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t48.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t49.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t50.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t51.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t52.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t53.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t54.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/2.2/4 Robust/4.1 Compatible/4.1.2 Name, Role, Value/verapdf-profile-4-1-2-t55.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-1-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-18-1-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-18-5-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-18-8-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t03.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t04.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t05.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t06.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t07.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t08.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t09.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t10.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t11.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t12.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t13.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t14.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t16.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t17.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t18.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t19.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t20.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t26.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t27.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t28.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t36.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t37.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t38.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t39.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-2-t40.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-4-4-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-4-4-t02.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/1/verapdf-profile-7-4-4-t03.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/2
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG/PDF_UA/2/verapdf-profile-8-11-1-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2-Complete-PDF20.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2-Complete.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2-Dev.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2-Machine-PDF20.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2-Machine.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WCAG-2-2.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Accessibility
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Accessibility/6.1.3 Conformance level for accessibility
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Accessibility/6.1.3 Conformance level for accessibility/verapdf-profile-6-1-3-t01.xml
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Reuse
+[D] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Reuse/6.1.2 Conformance level for reuse
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF/1.0/Reuse/6.1.2 Conformance level for reuse/verapdf-profile-6-1-2-t01.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF-1-0-Accessibility.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/PDF_UA/WTPDF-1-0-Reuse.xml
+[F] validation_profiles/veraPDF-validation-profiles-integration/README.md
+[F] validation_profiles/veraPDF-validation-profiles-integration/validationProfile.xsd

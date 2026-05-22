@@ -1,0 +1,19 @@
+{
+  "name": "montefiore_pdfua_quickstart_v6",
+  "date": "2026-05-21",
+  "packages": [
+    "00_manifest_catalog_checksums",
+    "01_rules",
+    "02_scripts",
+    "03_skills",
+    "04_examples_reference_readonly",
+    "05_assets"
+  ],
+  "external_binaries_not_included": [
+    "qpdf",
+    "veraPDF",
+    "axesCheck/PAC optional"
+  ],
+  "controlling": "active V6 rules/scripts/assets/skill only",
+  "examples": "read-only reference by default"
+}
