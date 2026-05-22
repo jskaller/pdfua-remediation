@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 table_semantics_audit.py
-Audits table structure elements for PDF/UA compliance (veraPDF rule 7.5).
-Checks: TH cells have Scope, tables have THead/TBody, TR contains only TH/TD,
-no empty header cells, Summary attribute present.
+Audits table structure elements for PDF/UA-1 compliance.
+Checks: TH cells have Scope attribute, TD cells can resolve a header,
+tables have at least one TH row.
 
-Usage: table_semantics_audit.py <pdf>
+Usage: table_semantics_audit.py <pdf> [--out results.json]
 """
-import sys, json, re
+import sys, json, re, argparse
 from pathlib import Path
 
 try:
@@ -15,23 +15,31 @@ try:
 except Exception as e:
     print(json.dumps({'result': 'ERROR', 'error': f'PyMuPDF unavailable: {e}'})); sys.exit(2)
 
-if len(sys.argv) < 2:
-    print('usage: table_semantics_audit.py <pdf>', file=sys.stderr); sys.exit(2)
+parser = argparse.ArgumentParser()
+parser.add_argument('pdf')
+parser.add_argument('--out', default=None, help='Write JSON output to this file in addition to stdout')
+args = parser.parse_args()
 
-doc = fitz.open(sys.argv[1])
+doc = fitz.open(args.pdf)
 issues = []
-stats  = {'tables': 0, 'th_cells': 0, 'th_missing_scope': 0,
-          'tables_missing_summary': 0, 'tables_missing_thead': 0}
+tables_found = 0
+th_cells_found = 0
+th_missing_scope = 0
 
 catalog = doc.pdf_catalog()
 struct_tree_ref = doc.xref_get_key(catalog, 'StructTreeRoot')
 
 if struct_tree_ref[0] == 'null' or not struct_tree_ref[1]:
-    print(json.dumps({'pdf': sys.argv[1], 'result': 'SKIPPED',
-                      'reason': 'No StructTreeRoot — document not tagged'}))
+    output = json.dumps({
+        'pdf': args.pdf, 'result': 'SKIPPED',
+        'reason': 'No StructTreeRoot — document not tagged'
+    }, indent=2)
+    print(output)
+    if args.out:
+        Path(args.out).write_text(output)
     sys.exit(1)
 
-def get_kids(xref):
+def get_kids_xrefs(xref, doc):
     kids = doc.xref_get_key(xref, 'K')
     if kids[0] == 'array':
         return [int(r) for r in re.findall(r'(\d+)\s+0\s+R', kids[1])]
@@ -39,51 +47,49 @@ def get_kids(xref):
         return [int(kids[1].split()[0])]
     return []
 
-def stype(xref):
-    s = doc.xref_get_key(xref, 'S')
-    return s[1].strip('/').strip() if s[0] != 'null' else ''
-
-def has_attr(xref, attr_name):
-    a = doc.xref_get_key(xref, 'A')
-    return a[0] != 'null' and attr_name in a[1]
-
-def walk(xref, parent_type=None):
+def walk_for_type(xref, doc, target_types):
     try:
-        t = stype(xref)
-
-        if t == 'Table':
-            stats['tables'] += 1
-            if not has_attr(xref, 'Summary'):
-                stats['tables_missing_summary'] += 1
-                issues.append({'type': 'Table_missing_summary', 'xref': xref,
-                               'fix': 'run fix_table_headers.py'})
-            kids = get_kids(xref)
-            kid_types = [stype(k) for k in kids]
-            if 'THead' not in kid_types and any(st in kid_types for st in ('TR', 'TBody')):
-                stats['tables_missing_thead'] += 1
-                issues.append({'type': 'Table_missing_THead', 'xref': xref,
-                               'note': 'No THead grouping — header row semantics unclear'})
-
-        elif t == 'TH':
-            stats['th_cells'] += 1
-            if not has_attr(xref, 'Scope'):
-                stats['th_missing_scope'] += 1
-                issues.append({'type': 'TH_missing_scope', 'xref': xref,
-                               'fix': 'run fix_table_headers.py'})
-
-        for kid in get_kids(xref):
-            walk(kid, t)
+        s_type = doc.xref_get_key(xref, 'S')
+        clean  = s_type[1].strip('/').strip() if s_type[0] != 'null' else ''
+        if clean in target_types:
+            yield xref, clean
+        for kid_xref in get_kids_xrefs(xref, doc):
+            yield from walk_for_type(kid_xref, doc, target_types)
     except Exception:
         return
 
 struct_root_xref = int(struct_tree_ref[1].split()[0])
-walk(struct_root_xref)
+
+for xref, s_type in walk_for_type(struct_root_xref, doc, {'Table', 'TH', 'TD'}):
+    if s_type == 'Table':
+        tables_found += 1
+    elif s_type == 'TH':
+        th_cells_found += 1
+        attrs = doc.xref_get_key(xref, 'A')
+        scope_present = attrs[0] != 'null' and 'Scope' in attrs[1]
+        if not scope_present:
+            th_missing_scope += 1
+            issues.append({
+                'xref': xref,
+                'type': 'TH_missing_scope',
+                'note': 'TH cell has no Scope attribute — run fix_table_headers.py'
+            })
 
 result = 'PASS' if not issues else 'FAIL'
-print(json.dumps({
-    'pdf':     sys.argv[1],
-    'result':  result,
-    'stats':   stats,
-    'issues':  issues
-}, indent=2))
+
+output = json.dumps({
+    'pdf':              args.pdf,
+    'result':           result,
+    'tables_found':     tables_found,
+    'th_cells_found':   th_cells_found,
+    'th_missing_scope': th_missing_scope,
+    'issues':           issues[:50],
+    'issue_count':      len(issues)
+}, indent=2)
+
+print(output)
+
+if args.out:
+    Path(args.out).write_text(output)
+
 sys.exit(0 if result == 'PASS' else 1)

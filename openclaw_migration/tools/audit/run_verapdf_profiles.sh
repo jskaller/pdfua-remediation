@@ -13,7 +13,7 @@ if [ "$#" -lt 4 ]; then
     exit 2
 fi
 
-VERAPDF="$1"
+VERAPDF="${VERAPDF_BIN:-$1}"
 PROFILES="$2"
 PDF="$3"
 OUT="$4"
@@ -39,6 +39,7 @@ run_profile() {
     echo "  running: $label"
     if "$VERAPDF" --format xml --verbose --maxfailuresdisplayed -1 "$@" "$PDF" > "$outfile" 2>&1; then
         echo "  result:  PASS -> $outfile"
+        PASS=$((PASS + 1))
     else
         echo "  result:  FAIL -> $outfile"
         FAIL=$((FAIL + 1))
@@ -75,11 +76,12 @@ cat > "$OUT/verapdf_summary.json" <<EOF
 {
   "pdf": "$PDF",
   "result": "$RESULT",
-  "profiles_run": $((FAIL + PASS + $(ls "$OUT"/*.xml 2>/dev/null | wc -l))),
-  "failures": $FAIL,
+  "profiles_run": $((PASS + FAIL)),
+  "profiles_passed": $PASS,
+  "profiles_failed": $FAIL,
   "report_dir": "$OUT"
 }
 EOF
 
-echo "=== Summary: $RESULT (failures: $FAIL) ==="
+echo "=== Summary: $RESULT (passed: $PASS, failed: $FAIL) ==="
 [ "$FAIL" -eq 0 ]

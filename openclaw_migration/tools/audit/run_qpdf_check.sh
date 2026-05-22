@@ -1,72 +1,67 @@
 #!/usr/bin/env bash
 # run_qpdf_check.sh
-# Runs qpdf --check on a PDF and writes a JSON summary.
-# Also linearizes output if requested.
+# Runs qpdf --check on a PDF and writes a JSON result summary.
 #
-# Usage: run_qpdf_check.sh <pdf> <out-dir> [--linearize]
-# Exit: 0 = pass, 1 = qpdf errors found, 2 = usage error
+# Usage: run_qpdf_check.sh <pdf> <out-dir> [--linearize] [--out qpdf_check.json]
+# Exit: 0 = pass, 1 = fail, 2 = usage error
 
 set -euo pipefail
 
 if [ "$#" -lt 2 ]; then
-    echo "usage: run_qpdf_check.sh <pdf> <out-dir> [--linearize]" >&2
+    echo "usage: run_qpdf_check.sh <pdf> <out-dir> [--linearize] [--out file.json]" >&2
     exit 2
 fi
 
+QPDF="${QPDF_BIN:-qpdf}"
 PDF="$1"
 OUT="$2"
-LINEARIZE="${3:-}"
+LINEARIZE=0
+OUT_FILE=""
+
+shift 2
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --linearize) LINEARIZE=1 ;;
+        --out) OUT_FILE="$2"; shift ;;
+        *) echo "unknown argument: $1" >&2; exit 2 ;;
+    esac
+    shift
+done
 
 mkdir -p "$OUT"
-BASENAME=$(basename "$PDF" .pdf)
-LOG="$OUT/qpdf_check_${BASENAME}.log"
-RESULT_JSON="$OUT/qpdf_check_${BASENAME}.json"
 
-echo "=== qpdf check: $PDF ==="
+LOG="$OUT/qpdf_check.log"
+RESULT="PASS"
+ERRORS=""
 
-# Run check
-set +e
-qpdf --check "$PDF" > "$LOG" 2>&1
-QPDF_EXIT=$?
-set -e
-
-# Parse result
-if [ "$QPDF_EXIT" -eq 0 ]; then
-    RESULT="PASS"
-    ERRORS=0
-elif [ "$QPDF_EXIT" -eq 3 ]; then
-    RESULT="WARN"   # warnings only
-    ERRORS=0
-else
+if ! "$QPDF" --check "$PDF" > "$LOG" 2>&1; then
     RESULT="FAIL"
-    ERRORS=1
+    ERRORS=$(cat "$LOG" | head -40 | sed 's/"/\\"/g' | tr '\n' ' ')
 fi
 
-# Count warnings/errors in log
-WARNINGS=$(grep -c "WARNING" "$LOG" 2>/dev/null || true)
-ERROR_COUNT=$(grep -c "ERROR" "$LOG" 2>/dev/null || true)
-
-# Linearize if requested
-LINEARIZED_PATH=""
-if [ "$LINEARIZE" = "--linearize" ] && [ "$RESULT" != "FAIL" ]; then
-    LINEARIZED_PATH="$OUT/${BASENAME}_linearized.pdf"
-    qpdf --linearize "$PDF" "$LINEARIZED_PATH"
-    echo "  linearized -> $LINEARIZED_PATH"
+if [ "$LINEARIZE" -eq 1 ] && [ "$RESULT" = "PASS" ]; then
+    LINEARIZED="${PDF%.pdf}_linearized.pdf"
+    "$QPDF" --linearize "$PDF" "$LINEARIZED" >> "$LOG" 2>&1 || true
 fi
 
-cat > "$RESULT_JSON" <<EOF
+JSON=$(cat <<EOF
 {
   "pdf": "$PDF",
   "result": "$RESULT",
-  "qpdf_exit_code": $QPDF_EXIT,
-  "warnings": $WARNINGS,
-  "errors": $ERROR_COUNT,
   "log": "$LOG",
-  "linearized": "$LINEARIZED_PATH"
+  "errors": "$ERRORS"
 }
 EOF
+)
 
-echo "  result: $RESULT (warnings: $WARNINGS, errors: $ERROR_COUNT)"
-cat "$LOG"
+echo "$JSON"
 
-[ "$RESULT" != "FAIL" ]
+# Write to out-dir default location
+echo "$JSON" > "$OUT/qpdf_check.json"
+
+# Also write to explicit --out path if specified
+if [ -n "$OUT_FILE" ]; then
+    echo "$JSON" > "$OUT_FILE"
+fi
+
+[ "$RESULT" = "PASS" ]

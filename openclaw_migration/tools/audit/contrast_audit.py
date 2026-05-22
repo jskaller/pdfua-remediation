@@ -2,12 +2,12 @@
 """
 contrast_audit.py
 Audits text contrast ratios across all pages against WCAG 1.4.3 thresholds.
-Wraps fix_contrast_color_runs.py logic as a standalone audit with
-page-level summary and actionable output.
 
-Usage: contrast_audit.py <pdf>
+Usage: contrast_audit.py <pdf> [--out results.json]
+
+Note: background is assumed white. Colored backgrounds may produce false positives.
 """
-import sys, json
+import sys, json, argparse
 from pathlib import Path
 
 try:
@@ -15,10 +15,12 @@ try:
 except Exception as e:
     print(json.dumps({'result': 'ERROR', 'error': f'PyMuPDF unavailable: {e}'})); sys.exit(2)
 
-if len(sys.argv) < 2:
-    print('usage: contrast_audit.py <pdf>', file=sys.stderr); sys.exit(2)
+parser = argparse.ArgumentParser()
+parser.add_argument('pdf')
+parser.add_argument('--out', default=None, help='Write JSON output to this file in addition to stdout')
+args = parser.parse_args()
 
-doc = fitz.open(sys.argv[1])
+doc = fitz.open(args.pdf)
 
 def relative_luminance(r, g, b):
     def lin(c): return c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
@@ -68,15 +70,22 @@ for page_num, page in enumerate(doc):
         by_page[str(page_num + 1)] = page_failures
 
 result = 'PASS' if not failures else 'FAIL'
-print(json.dumps({
-    'pdf':           sys.argv[1],
-    'result':        result,
-    'failures':      len(failures),
-    'warnings':      len(warnings),
+
+output = json.dumps({
+    'pdf':            args.pdf,
+    'result':         result,
+    'failures':       len(failures),
+    'warnings':       len(warnings),
     'pages_affected': len(by_page),
-    'by_page':       by_page,
-    'failure_list':  failures[:20],
-    'warning_list':  warnings[:20],
-    'note':          'Background assumed white. Colored backgrounds may produce false positives.'
-}, indent=2))
+    'by_page':        by_page,
+    'failure_list':   failures[:20],
+    'warning_list':   warnings[:20],
+    'note':           'Background assumed white. Colored backgrounds may produce false positives.'
+}, indent=2)
+
+print(output)
+
+if args.out:
+    Path(args.out).write_text(output)
+
 sys.exit(0 if result == 'PASS' else 1)

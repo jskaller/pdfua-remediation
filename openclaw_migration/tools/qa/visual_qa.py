@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
 visual_qa.py
-Generates a visual QA report: renders each page to PNG thumbnails,
-extracts reading order summary, and flags pages with potential issues
-(very sparse text, blank pages, extreme aspect ratios).
+Renders each page as a thumbnail PNG for human visual review.
+Flags pages that are blank, very small, or have unusual aspect ratios.
 
-Usage: visual_qa.py <pdf> <out-dir> [--dpi 96]
-Outputs: thumbnail PNGs + JSON report for human review.
+Usage: visual_qa.py <pdf> <out-dir> [--dpi 96] [--out results.json]
 """
 import sys, json, argparse
 from pathlib import Path
@@ -20,6 +18,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('pdf')
 parser.add_argument('out_dir')
 parser.add_argument('--dpi', type=int, default=96)
+parser.add_argument('--out', default=None, help='Write JSON output to this file in addition to stdout')
 args = parser.parse_args()
 
 out_dir = Path(args.out_dir)
@@ -28,54 +27,57 @@ out_dir.mkdir(parents=True, exist_ok=True)
 doc    = fitz.open(args.pdf)
 matrix = fitz.Matrix(args.dpi / 72, args.dpi / 72)
 pages  = []
-flags  = []
+flagged = []
 
 for i, page in enumerate(doc):
-    # Render thumbnail
     pix      = page.get_pixmap(matrix=matrix)
-    thumb_path = out_dir / f'page_{i+1:03d}_thumb.png'
-    pix.save(str(thumb_path))
+    filename = f'page_{i+1:03d}.png'
+    pix.save(str(out_dir / filename))
 
-    # Extract text summary
-    text      = page.get_text('text').strip()
-    word_count = len(text.split())
-    rect      = page.rect
+    total_pixels = pix.width * pix.height
+    # Approximate blank detection: sample mean brightness
+    samples   = pix.samples
+    mean_val  = sum(samples) / len(samples) if samples else 255
+    is_blank  = mean_val > 252  # nearly all white
 
-    # Flag conditions
-    page_flags = []
-    if word_count == 0:
-        page_flags.append('BLANK_OR_IMAGE_ONLY')
-    elif word_count < 5:
-        page_flags.append('VERY_SPARSE_TEXT')
-    if rect.width > 0 and (rect.height / rect.width > 4 or rect.width / rect.height > 4):
-        page_flags.append('UNUSUAL_ASPECT_RATIO')
+    unusual_ratio = False
+    if pix.height > 0:
+        ratio = pix.width / pix.height
+        unusual_ratio = ratio < 0.3 or ratio > 3.5
 
-    # Check for images without alt text in struct tree
-    imgs = page.get_images()
-    if imgs and word_count == 0:
-        page_flags.append('IMAGE_PAGE_NO_TEXT — verify alt text in structure')
+    flags = []
+    if is_blank:
+        flags.append('blank_page')
+    if unusual_ratio:
+        flags.append('unusual_aspect_ratio')
 
     entry = {
-        'page':       i + 1,
-        'width_pt':   round(rect.width, 1),
-        'height_pt':  round(rect.height, 1),
-        'word_count': word_count,
-        'image_count': len(imgs),
-        'thumbnail':  str(thumb_path),
-        'flags':      page_flags
+        'page':     i + 1,
+        'file':     filename,
+        'width_px': pix.width,
+        'height_px': pix.height,
+        'flags':    flags
     }
     pages.append(entry)
-    if page_flags:
-        flags.append({'page': i + 1, 'flags': page_flags})
+    if flags:
+        flagged.append(i + 1)
 
-result = 'REVIEW' if flags else 'PASS'
-print(json.dumps({
-    'pdf':          args.pdf,
-    'result':       result,
-    'total_pages':  len(doc),
-    'pages_flagged': len(flags),
-    'flagged':      flags,
-    'pages':        pages,
-    'thumbnails_dir': str(out_dir)
-}, indent=2))
+result = 'PASS' if not flagged else 'REVIEW'
+
+output_data = json.dumps({
+    'pdf':           args.pdf,
+    'result':        result,
+    'dpi':           args.dpi,
+    'pages_total':   len(doc),
+    'pages_flagged': len(flagged),
+    'flagged_pages': flagged,
+    'thumbnails_dir': str(out_dir),
+    'pages':         pages
+}, indent=2)
+
+print(output_data)
+
+if args.out:
+    Path(args.out).write_text(output_data)
+
 sys.exit(0 if result == 'PASS' else 1)

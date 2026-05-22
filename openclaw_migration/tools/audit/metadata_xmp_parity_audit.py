@@ -5,10 +5,9 @@ Audits PDF Info dictionary vs XMP metadata for parity.
 Checks: author, creator, producer fields match between Info and XMP,
 pdfuaid:part=1 present, and document language set.
 
-Org-specific metadata values are configurable via --org env var or
-ORG_NAME environment variable. Defaults to generic checks if not set.
+Org-specific metadata values are configurable via --org or ORG_NAME env var.
 
-Usage: metadata_xmp_parity_audit.py <pdf> [--org "Org Name"]
+Usage: metadata_xmp_parity_audit.py <pdf> [--org "Org Name"] [--out results.json]
 """
 import sys, json, re, os, argparse
 from pathlib import Path
@@ -22,6 +21,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('pdf')
 parser.add_argument('--org', default=os.environ.get('ORG_NAME', ''),
                     help='Expected org name in metadata fields (optional)')
+parser.add_argument('--out', default=None,
+                    help='Write JSON output to this file in addition to stdout')
 args = parser.parse_args()
 
 doc  = fitz.open(args.pdf)
@@ -34,7 +35,6 @@ def xmp_val(tag):
     m = re.search(rf'<{re.escape(tag)}>(.*?)</{re.escape(tag)}>', xmp, re.S)
     return m.group(1).strip() if m else ''
 
-# Check Info/XMP parity for key fields
 field_map = {
     'title':    'dc:title',
     'author':   'dc:creator',
@@ -48,14 +48,13 @@ for info_key, xmp_tag in field_map.items():
     xmp_v    = xmp_val(xmp_tag).strip()
     match    = info_val == xmp_v
     checks.append({
-        'field':       info_key,
-        'info_value':  info_val,
-        'xmp_value':   xmp_v,
-        'pass':        match,
-        'note':        '' if match else 'Info/XMP mismatch — run fix_metadata_xmp_parity.py'
+        'field':      info_key,
+        'info_value': info_val,
+        'xmp_value':  xmp_v,
+        'pass':       match,
+        'note':       '' if match else 'Info/XMP mismatch — run fix_metadata_xmp_parity.py'
     })
 
-# If org name provided, validate it appears in key fields
 if args.org:
     for field in ['author', 'creator', 'producer']:
         val = meta.get(field, '')
@@ -66,7 +65,6 @@ if args.org:
             'note':  f'Expected org "{args.org}" not found in {field}' if args.org not in val else ''
         })
 
-# PDF/UA identifier
 checks.append({
     'field': 'pdfuaid_part',
     'pass':  'pdfuaid:part' in xmp and '>1<' in xmp,
@@ -74,10 +72,9 @@ checks.append({
              if not ('pdfuaid:part' in xmp and '>1<' in xmp) else ''
 })
 
-# Document language
-catalog     = doc.pdf_catalog()
-lang_ref    = doc.xref_get_key(catalog, 'Lang')
-has_lang    = lang_ref[0] != 'null' and bool(lang_ref[1].strip().strip('()'))
+catalog  = doc.pdf_catalog()
+lang_ref = doc.xref_get_key(catalog, 'Lang')
+has_lang = lang_ref[0] != 'null' and bool(lang_ref[1].strip().strip('()'))
 checks.append({
     'field': 'catalog_lang',
     'value': lang_ref[1].strip('()') if has_lang else '',
@@ -85,7 +82,6 @@ checks.append({
     'note':  'No /Lang in catalog — set document language' if not has_lang else ''
 })
 
-# Title present
 has_title = bool(meta.get('title', '').strip())
 checks.append({
     'field': 'title_present',
@@ -94,14 +90,20 @@ checks.append({
     'note':  'No document title set' if not has_title else ''
 })
 
-result = 'PASS' if all(c['pass'] for c in checks) else 'FAIL'
+result   = 'PASS' if all(c['pass'] for c in checks) else 'FAIL'
 failures = [c for c in checks if not c['pass']]
 
-print(json.dumps({
+output = json.dumps({
     'pdf':      args.pdf,
     'result':   result,
     'checks':   checks,
     'failures': failures,
     'info':     meta
-}, indent=2))
+}, indent=2)
+
+print(output)
+
+if args.out:
+    Path(args.out).write_text(output)
+
 sys.exit(0 if result == 'PASS' else 1)
