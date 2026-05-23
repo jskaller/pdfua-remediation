@@ -46,6 +46,8 @@ gate_files = {
     'qpdf':                 job_dir / 'qpdf_check.json',
     'visual_qa':            job_dir / 'visual_qa.json',
     'render_compare':       job_dir / 'render_compare.json',
+    'alt_text':             job_dir / 'fix_figure_alt_text_approved.json',
+    'ocr_detection':        job_dir / 'detect_image_only_pages.json',
 }
 
 all_results = []
@@ -80,7 +82,7 @@ if not all_results:
     status['overall_result'] = 'NO_RESULTS'
 elif any(r == 'FAIL' for r in all_results):
     status['overall_result'] = 'FAIL'
-elif any(r in ('REVIEW', 'PARTIAL', 'WARN') for r in all_results):
+elif any(r in ('REVIEW', 'PARTIAL', 'WARN', 'NEEDS_REVIEW') for r in all_results):
     status['overall_result'] = 'REVIEW'
 elif all(r == 'PASS' for r in all_results):
     status['overall_result'] = 'PASS'

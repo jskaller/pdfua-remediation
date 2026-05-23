@@ -60,3 +60,10 @@ workspace/input/*.pdf
 *.swo
 *~
 Thumbs.db
+openclaw_migration/workspace/input/*
+openclaw_migration/workspace/jobs/*
+openclaw_migration/workspace/output/*
+openclaw_migration/workspace/archive/*
+openclaw_migration/workspace/assets/validation_profiles/*
+!**/.gitkeep
+openclaw_migration/.env
