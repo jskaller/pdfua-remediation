@@ -1,1 +1,0 @@
-Load Montefiore PDF/UA Quickstart V6 as the controlling environment. Read the manifest, external tools document, controlling ruleset, non-negotiable gates, metadata/XMP parity rule, pinned veraPDF profile rule, runbook, and pre-handoff checklist before processing active PDFs.
